@@ -3,10 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './services/textLanguages'
+import { Suspense } from 'react'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Suspense fallback="Loading...">
+      <App />
+    </Suspense>
   </React.StrictMode>,
   document.getElementById('root')
 );

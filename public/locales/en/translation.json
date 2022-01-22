@@ -1,0 +1,168 @@
+{
+    "description": {
+        "part1": "Edit <1>src/App.js</1> and save to reload.",
+        "part2": "Learn React"
+    },
+    "test": "test",
+    "label": {
+        "quantity": "Quantity", 
+        "weight": "Weight", 
+        "distance": "Distance",
+        "liquid": "Liquid",
+        "area": "Area",
+        "home": "Home",
+        "typeOfProduct": "Type of product",
+        "typeOfMeasure": "Measurement type",
+        "product": "Product",
+        "item": "Item",
+        "price": "Price",
+        "confirm": "Confirm",
+        "cancel": "Cancel",
+        "update": "Update",
+        "remove": "Remove",
+        "measure": "Measure",
+        "comparePrice": "Compare Prices",
+        "convert": "Convert",
+        "value": "Value",
+        "from": "From",
+        "to": "To",
+        "result": "Result",
+        "dataTransfer": "Data transfer",
+        "storage": "Digital storage",
+        "energy": "Energy",
+        "frequency": "Frequency",
+        "fuel": "Fuel",
+        "angle": "Angle",
+        "pressure": "Pressure",
+        "speed": "Speed",
+        "time": "Time",
+        "temperature": "Temperature"
+    },
+    "wheight": {
+        "pound": "Pounds",
+        "ton": "Imperial Tons",
+        "uston": "US Tons",
+        "tonne": "Tonnes",
+        "kg": "Kilograms",
+        "g": "Grams",
+        "mg": "Miligrams",
+        "stone": "Stones"
+    },
+    "distance":{
+        "foot": "Feet",
+        "yard": "Yards",
+        "inch": "Inches",
+        "mile": "Miles",
+        "km": "Kilometers",
+        "m": "Meters",
+        "mm": "Milimeters",
+        "cm": "Centimeters",
+        "nauticmile": "Nautic Miles",
+        "feet": "Feet"
+    },
+    "liquid": {
+        "ounce": "Ounces",
+        "pint": "UK Pints",
+        "gallon": "UK Gallons",
+        "usgallon": "US Gallons",
+        "usquart": "US Quarts",
+        "quart": "UK Quarts",
+        "uspint": "US Pints",
+        "uscup": "US Cups",
+        "cup": "UK Cups",
+        "cubicmeter": "Cubic Meters",
+        "liter": "Liters",
+        "ml": "Mililiters",
+        "cubicfoot": "Cubic feet",
+        "cubicinch": "Cubic inches"
+    },
+    "area": {
+        "squarefeet": "Square Foot",
+        "acre": "Acres",
+        "hectare": "Hectares",
+        "squaremeter": "Square meters",
+        "squarecm": "Square centimeters",
+        "squarekm": "Square kilometers",
+        "squarefoot": "Square feet",
+        "squareyard": "Square yards",
+        "squaremile": "Square miles",
+        "squareinch": "Square inches"
+    },
+    "dataTransfer": {
+        "perSecond": "per second",
+        "bit": "Bits",
+        "kilobit": "Kilobits",
+        "kilobyte": "Kilobytes",
+        "megabit": "Megabits",
+        "megabyte": "Megabytes",
+        "gigabit": "Gigabits",
+        "gigabyte": "Gigabytes",
+        "terabit": "Terabits",
+        "terabyte": "Terabytes",
+        "petabyte": "Petabyte"
+    },        
+    "energy": {
+        "joule": "Joules",
+        "kilojoule": "kilojoules",
+        "calorie": "Calories",
+        "kilocalorie": "Kilocalories",
+        "watthour": "Watt/h",
+        "kilowatthour": "Kilowatt/h",
+        "electronvolt": "Electronvolt",
+        "britishThermalUnit": "BTU",
+        "usTherm": "US therm",
+        "footPound": "Foot-pound"
+    },
+    "frequency": {
+        "hertz": "Hertz",
+        "kilohertz": "Kilohertz",
+        "megahertz": "Megahertz",
+        "gigahertz": "Gigahertz"
+    },
+    "fuel": {
+        "kmlt": "Kilometers per Liter",
+        "lt100km": "Liter per 100 Km",
+        "mlgallon": "Miles per gallon",
+        "mlgallonImp": "Miles per gallon Imperial"
+    },
+    "angle": {
+        "degree": "Degrees",
+        "milliradian": "Milliradians",
+        "minuteofarc": "Minutes of arc",
+        "radian": "Radians",
+        "secondofarc": "Seconds of arc",
+        "gradian": "Gradians"
+    },
+    "pressure": {
+        "bar": "Bar",
+        "poundPerSquareInch": "Pound per square inch",
+        "atmosphere": "Atmosphere",
+        "torr": "Torr",
+        "pascal": "Pascal"
+    },
+    "speed": {
+        "milesperhour": "Miles por hour",
+        "footpersecond": "Feet per second",
+        "meterpersecond": "Meters per second",
+        "kmperhour": "kilometers per hour",
+        "knot": "Knots",
+        "lightyear": "Light-year"
+    },
+    "time": {
+        "millisecond": "Milliseconds",
+        "second": "Seconds",
+        "minute": "Minutes",
+        "hour": "Hours",
+        "day": "Days",
+        "week": "Weeks",
+        "month": "Months",
+        "year": "Years",
+        "decade": "Decades",
+        "century": "Centuries"
+    },
+    "temperature": {
+        "celsius": "Celsius",
+        "kelvin": "Kelvin",
+        "fahrenheit": "Fahrenheit"
+    }
+}

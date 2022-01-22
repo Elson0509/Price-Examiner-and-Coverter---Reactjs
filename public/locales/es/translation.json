@@ -1,0 +1,168 @@
+{
+    "description": {
+        "part1": "Spanish <1>src/App.js</1> und speichere um neu zu laden.",
+        "part2": "Lerne React"
+    },
+    "test": "testspanish",
+    "label": {
+        "quantity": "Cantidade", 
+        "weight": "Peso", 
+        "distance": "Distancia",
+        "liquid": "Líquido",
+        "area": "Área",
+        "home": "Comienzo",
+        "typeOfProduct": "Tipo de producto",
+        "typeOfMeasure": "Tipo de medida",
+        "product": "Producto",
+        "item": "Item",
+        "price": "Precio",
+        "confirm": "Confirmar",
+        "cancel": "Cancelar",
+        "update": "Actualizar",
+        "remove": "Eliminar",
+        "measure": "Medida",
+        "comparePrice": "Comparar precios",
+        "convert": "Convertir",
+        "value": "Valor",
+        "from": "De",
+        "to": "a",
+        "result": "Resultado",
+        "dataTransfer": "Transferência de dados",
+        "storage": "Almacenamiento Digital",
+        "energy": "Energía",
+        "frequency": "Frecuencia",
+        "fuel": "Combustible",
+        "angle": "Ángulo",
+        "pressure": "Presión",
+        "speed": "Velocidad",
+        "time": "Tiempo",
+        "temperature": "Temperature"
+    },
+    "wheight": {
+        "pound": "Libras",
+        "ton": "Imperial Tons",
+        "uston": "US Tons",
+        "tonne": "Toneladas",
+        "kg": "Kilogramos",
+        "g": "Gramos",
+        "mg": "Miligramos",
+        "stone": "Stones"
+    },
+    "distance":{
+        "foot": "Pies",
+        "yard": "Yardas",
+        "inch": "Pulgadas",
+        "mile": "Millas",
+        "km": "Kilómetros",
+        "m": "Metros",
+        "mm": "Milímetros",
+        "cm": "Címetros",
+        "nauticmile": "Millas náuticas",
+        "feet": "Pies"
+    },
+    "liquid": {
+        "ounce": "Onzas (Oz)",
+        "pint": "UK Pintas",
+        "gallon": "UK Galón",
+        "usgallon": "US Galóns",
+        "usquart": "US Cuarto",
+        "quart": "UK Cuarto",
+        "uspint": "US Pintas",
+        "uscup": "US Tazas",
+        "cup": "UK Tazas",
+        "cubicmeter": "Metros cúbicos",
+        "liter": "Litros",
+        "ml": "Mililitros",
+        "cubicfoot": "Pies cúbicos",
+        "cubicinch": "Pulgadas cúbicas"
+    },
+    "area": {
+        "squarefeet": "Pie cuadrado",
+        "acre": "Acres",
+        "hectare": "Hectáreas",
+        "squaremeter": "Metros cuadrados",
+        "squarecm": "Centímetros cuadrados",
+        "squarekm": "Kilómetros cuadrados",
+        "squarefoot": "Pies cuadrados",
+        "squareyard": "Yardas cuadradas",
+        "squaremile": "Millas cuadradas",
+        "squareinch": "Pulgadas cuadradas"
+    },
+    "dataTransfer": {
+        "perSecond": "por segundo",
+        "bit": "Bits",
+        "kilobit": "Kilobits",
+        "kilobyte": "Kilobytes",
+        "megabit": "Megabits",
+        "megabyte": "Megabytes",
+        "gigabit": "Gigabits",
+        "gigabyte": "Gigabytes",
+        "terabit": "Terabits",
+        "terabyte": "Terabytes",
+        "petabyte": "Petabytes"
+    },        
+    "energy": {
+        "joule": "Joules",
+        "kilojoule": "KiloJoules",
+        "calorie": "Calorías",
+        "kilocalorie": "Kilocalorias",
+        "watthour": "Watt/h",
+        "kilowatthour": "KiloWatt/h",
+        "electronvolt": "Eléctrón voltio",
+        "britishThermalUnit": "BTU",
+        "usTherm": "Therm US",
+        "footPound": "Pie-libra"
+    },
+    "frequency": {
+        "hertz": "Hertz",
+        "kilohertz": "Kilohertz",
+        "megahertz": "Megahertz",
+        "gigahertz": "Gigahertz"
+    },
+    "fuel": {
+        "kmlt": "Kilómetros por litro",
+        "lt100km": "Litros por 100 km",
+        "mlgallon": "Millas por galón",
+        "mlgallonImp": "Millas por galón imperial"
+    },
+    "angle": {
+        "degree": "Grados",
+        "milliradian": "Milliradianos",
+        "minuteofarc": "Minutos de arco",
+        "radian": "Radianos",
+        "secondofarc": "Segundos de arco",
+        "gradian": "Grados"
+    },
+    "pressure": {
+        "bar": "Bar",
+        "poundPerSquareInch": "Libras por pulgada cuadrada",
+        "atmosphere": "Atmósfera",
+        "torr": "Torr",
+        "pascal": "Pascal"
+    },
+    "speed": {
+        "milesperhour": "Millas por hora",
+        "footpersecond": "Pies por segundo",
+        "meterpersecond": "Metros por segundo",
+        "kmperhour": "Kilómetros por hora",
+        "knot": "Knots",
+        "lightyear": "Años luz"
+    },
+    "time": {
+        "millisecond": "Milisegundos",
+        "second": "Segundos",
+        "minute": "Minutos",
+        "hour": "Horas",
+        "day": "Días",
+        "week": "Semanas",
+        "month": "Meses",
+        "year": "Años",
+        "decade": "Décadas",
+        "century": "Siglos"
+    },
+    "temperature": {
+        "celsius": "Celsius",
+        "kelvin": "Kelvin",
+        "fahrenheit": "Fahrenheit"
+    }
+}
