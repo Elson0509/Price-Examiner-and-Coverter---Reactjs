@@ -1,10 +1,13 @@
 import React from 'react';
+import Page from '../../layout/Page';
 
 const Prices = (props) => {
     return (
-        <div>
-            Prices
-        </div>
+        <Page>
+            <div>
+                Prices
+            </div>
+        </Page>
     );
 };
 

@@ -1,10 +1,13 @@
-import React from 'react';
+import React from 'react'
+import Page from '../../layout/Page';
 
 const Convert = (props) => {
     return (
-        <div>
-            Convert
-        </div>
+        <Page>
+            <div>
+                Convert
+            </div>
+        </Page>
     );
 };
 

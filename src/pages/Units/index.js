@@ -1,10 +1,13 @@
 import React from 'react';
+import Page from '../../layout/Page';
 
 const Units = (props) => {
     return (
-        <div>
-            Units
-        </div>
+        <Page>
+            <div>
+                Units
+            </div>
+        </Page>
     );
 };
 

@@ -1,10 +1,13 @@
 import React from 'react';
+import Page from '../../layout/Page';
 
 const Main = (props) => {
     return (
-        <div>
-            Main
-        </div>
+        <Page>
+            <div>
+                Main
+            </div>
+        </Page>
     );
 };
 
