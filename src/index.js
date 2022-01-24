@@ -4,13 +4,16 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './services/textLanguages'
-import { Suspense } from 'react'
+import { BrowserRouter } from 'react-router-dom'
+//import { Suspense } from 'react'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Suspense fallback="Loading...">
+    {/* <Suspense fallback="Loading..."> */}
+    <BrowserRouter>
       <App />
-    </Suspense>
+    </BrowserRouter>
+    {/* </Suspense> */}
   </React.StrictMode>,
   document.getElementById('root')
 );

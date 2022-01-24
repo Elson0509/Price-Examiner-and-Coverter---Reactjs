@@ -1,34 +1,24 @@
-import { useTranslation, Trans } from 'react-i18next'
+import React, {Suspense, lazy} from 'react';
+import { Route, Routes, Navigate } from 'react-router-dom'
 
-const lngs = {
-  "pt-BR": { nativeName: 'Português' },
-  en: { nativeName: 'English' },
-  es: { nativeName: 'Spanish' }
-}
+//lazy components
+const MainLazy = lazy(()=> import ('./pages/Main'))
+const ConvertLazy = lazy(()=> import ('./pages/Convert'))
+const PricesLazy = lazy(()=> import ('./pages/Prices'))
+const UnitsLazy = lazy(()=> import ('./pages/Units'))
 
 function App() {
-  const { t, i18n } = useTranslation()
 
   return (
-    <div>
-      <h2>Hello world!</h2>
-      <div>
-        {Object.keys(lngs).map((lng) => (
-          <button key={lng} style={{ fontWeight: i18n.resolvedLanguage === lng ? 'bold' : 'normal' }} type="submit" onClick={() => i18n.changeLanguage(lng)}>
-            {lngs[lng].nativeName}
-          </button>
-        ))}
-      </div>
-      <p>
-        <Trans i18nKey="description.part1">
-          Edit <code>src/App.js</code> and save to reload.
-        </Trans>
-        <br />
-        {t('description.part2')}
-        <br />
-        {t('speed.meterpersecond')}
-      </p>
-    </div>
+    <Suspense fallback='...Loading'>
+      <Routes>
+        <Route exact path='/' element={<MainLazy/>}/>
+        <Route exact path='/convert' element={<ConvertLazy/>}/>
+        <Route exact path='/price' element={<PricesLazy/>}/>
+        <Route exact path='/unit' element={<UnitsLazy/>}/>
+        <Route exact path='/*' element={<Navigate replace to='/'/>}/>
+      </Routes>
+    </Suspense>
   );
 }
 

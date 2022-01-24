@@ -1,5 +1,3 @@
-import i18n from "./textLanguages"
-
 export const BORDER_COLOR_ITEM_LIST = 'black'
 export const BORDER_COLOR_ITEM_LIST_EXPENSIVE = 'red'
 export const BORDER_COLOR_ITEM_LIST_CHEAP = 'green'
@@ -17,47 +15,47 @@ export const BORDER_COLOR_BUTTONS_PRICE_SCREEN = '#34568B'
 export const WEIGHT_MEASURES = [
     //the reference for factor is g
     {
-        name: i18n.t('mg'),
+        name: ['wheight.mg'],
         factor: 0.001,
         symbol: 'mg'
     },
     {
-        name: i18n.t('g'),
+        name: ['wheight.g'],
         factor: 1,
         symbol: 'g'
     },
     {
-        name: i18n.t('kg'),
+        name: ['wheight.kg'],
         factor: 1000,
         symbol: 'Kg'
     },
     {
-        name: i18n.t('pound'),
+        name: ['wheight.pound'],
         factor: 453.592,
         symbol: 'lb'
     },
     {
-        name: i18n.t('tonne'),
+        name: ['wheight.tonne'],
         factor: 1000000,
         symbol: 't'
     },
     {
-        name: i18n.t('ton'),
+        name: ['wheight.ton'],
         factor: 1016047,
         symbol: 'tn'
     },
     {
-        name: i18n.t('uston'),
+        name: ['wheight.uston'],
         factor: 907184.7,
         symbol: 'ust'
     },
     {
-        name: i18n.t('ounce'),
+        name: ['liquid.ounce'],
         factor: 28.3495,
         symbol: 'Oz'
     },
     {
-        name: i18n.t('stone'),
+        name: ['wheight.stone'],
         factor: 6350.29,
         symbol: 'st'
     },
@@ -66,47 +64,47 @@ export const WEIGHT_MEASURES = [
 export const DISTANCE_MEASURES = [
     // the reference for factor is m
     {
-        name: i18n.t('mm'),
+        name: ['distance.mm'],
         factor: 0.001,
         symbol: 'mm'
     },
     {
-        name: i18n.t('cm'),
+        name: ['distance.cm'],
         factor: 0.01,
         symbol: 'cm'
     },
     {
-        name: i18n.t('m'),
+        name: ['distance.m'],
         factor: 1,
         symbol: 'm'
     },
     {
-        name: i18n.t('km'),
+        name: ['distance.km'],
         factor: 1000,
         symbol: 'Km'
     },
     {
-        name: i18n.t('inch'),
+        name: ['distance.inch'],
         factor: 0.0254,
         symbol: '″'
     },
     {
-        name: i18n.t('feet'),
+        name: ['distance.feet'],
         factor: 0.3048,
         symbol: '′'
     },
     {
-        name: i18n.t('yard'),
+        name: ['distance.yard'],
         factor: 0.9144,
         symbol: 'yd'
     },
     {
-        name: i18n.t('mile'),
+        name: ['distance.mile'],
         factor: 1609.34,
         symbol: 'mi'
     },
     {
-        name: i18n.t('nauticmile'),
+        name: ['distance.nauticmile'],
         factor: 1852,
         symbol: 'nmi'
     },
@@ -115,72 +113,72 @@ export const DISTANCE_MEASURES = [
 export const LIQUID_MEASURES = [
     // the reference for factor is l
     {
-        name: i18n.t('ml'),
+        name: ['liquid.ml'],
         factor: 0.001,
         symbol: 'mL'
     },
     {
-        name: i18n.t('liter'),
+        name: ['liquid.liter'],
         factor: 1,
         symbol: 'L'
     },
     {
-        name: i18n.t('ounce'),
+        name: ['liquid.ounce'],
         factor: 0.0284131,
         symbol: 'Oz'
     },
     {
-        name: i18n.t('cup'),
+        name: ['liquid.cup'],
         factor: 0.284131,
         symbol: 'UK cup'
     },
     {
-        name: i18n.t('pint'),
+        name: ['liquid.pint'],
         factor: 0.568261,
         symbol: 'UK pt'
     },
     {
-        name: i18n.t('quart'),
+        name: ['liquid.quart'],
         factor: 1.13652,
         symbol: 'UK qt'
     },
     {
-        name: i18n.t('usgallon'),
+        name: ['liquid.usgallon'],
         factor: 3.78541,
         symbol: 'US gal'
     },
     {
-        name: i18n.t('uscup'),
+        name: ['liquid.uscup'],
         factor: 0.24,
         symbol: 'US cup'
     },
     {
-        name: i18n.t('uspint'),
+        name: ['liquid.uspint'],
         factor: 0.473176,
         symbol: 'US pt'
     },
     {
-        name: i18n.t('usquart'),
+        name: ['liquid.usquart'],
         factor: 0.946353,
         symbol: 'US qt'
     },
     {
-        name: i18n.t('gallon'),
+        name: ['liquid.gallon'],
         factor: 4.54609,
         symbol: 'UK gal'
     },
     {
-        name: i18n.t('cubicinch'),
+        name: ['liquid.cubicinch'],
         factor: 0.0163871,
         symbol: 'in³'
     },
     {
-        name: i18n.t('cubicfoot'),
+        name: ['liquid.cubicfoot'],
         factor: 28.3168,
         symbol: 'ft³'
     },
     {
-        name: i18n.t('cubicmeter'),
+        name: ['liquid.cubicmeter'],
         factor: 1000,
         symbol: 'm³'
     },
@@ -189,47 +187,47 @@ export const LIQUID_MEASURES = [
 export const AREA_MEASURES = [
     // the reference for factor is squaremeter
     {
-        name: i18n.t('hectare'),
+        name: ['area.hectare'],
         factor: 10000,
         symbol: 'ha'
     },
     {
-        name: i18n.t('acre'),
+        name: ['area.acre'],
         factor: 4046.86,
         symbol: 'ac'
     },
     {
-        name: i18n.t('squaremeter'),
+        name: ['area.squaremeter'],
         factor: 1,
         symbol: 'm²'
     },
     {
-        name: i18n.t('squarecm'),
+        name: ['area.squarecm'],
         factor: 0.0001,
         symbol: 'cm²'
     },
     {
-        name: i18n.t('squarekm'),
+        name: ['area.squarekm'],
         factor: 1000000,
         symbol: 'km²'
     },
     {
-        name: i18n.t('squarefoot'),
+        name: ['area.squarefoot'],
         factor: 0.092903,
         symbol: 'ft²'
     },
     {
-        name: i18n.t('squareyard'),
+        name: ['area.squareyard'],
         factor: 0.836127,
         symbol: 'yd²'
     },
     {
-        name: i18n.t('squaremile'),
+        name: ['area.squaremile'],
         factor: 2590002.59,
         symbol: 'mi²'
     },
     {
-        name: i18n.t('squareinch'),
+        name: ['area.squareinch'],
         factor: 0.00064516,
         symbol: 'in²'
     },
@@ -238,47 +236,47 @@ export const AREA_MEASURES = [
 export const DATA_TRANSFER = [
     // the reference for factor is megabyte
     {
-        name: i18n.t('bit') + ' ' + i18n.t('perSecond'),
+        name: ['dataTransfer.bit', 'dataTransfer.perSecond'],
         factor: 0.000000125,
         symbol: 'bit/s'
     },
     {
-        name: i18n.t('kilobit') + ' ' + i18n.t('perSecond'),
+        name: ['dataTransfer.kilobit', 'dataTransfer.perSecond'],
         factor: 0.000125,
         symbol: 'kbit/s'
     },
     {
-        name: i18n.t('kilobyte') + ' ' + i18n.t('perSecond'),
+        name: ['dataTransfer.kilobyte', 'dataTransfer.perSecond'],
         factor: 0.001,
         symbol: 'kB/s'
     },
     {
-        name: i18n.t('megabit') + ' ' + i18n.t('perSecond'),
+        name: ['dataTransfer.megabit', 'dataTransfer.perSecond'],
         factor: 0.125,
         symbol: 'Mbit/s'
     },
     {
-        name: i18n.t('megabyte') + ' ' + i18n.t('perSecond'),
+        name: ['dataTransfer.megabyte', 'dataTransfer.perSecond'],
         factor: 1,
         symbol: 'MB/s'
     },
     {
-        name: i18n.t('gigabit') + ' ' + i18n.t('perSecond'),
+        name: ['dataTransfer.gigabit', 'dataTransfer.perSecond'],
         factor: 125,
         symbol: 'Bgit/s'
     },
     {
-        name: i18n.t('gigabyte') + ' ' + i18n.t('perSecond'),
+        name: ['dataTransfer.gigabyte', 'dataTransfer.perSecond'],
         factor: 1000,
         symbol: 'GB/s'
     },
     {
-        name: i18n.t('terabit') + ' ' + i18n.t('perSecond'),
+        name: ['dataTransfer.terabit', 'dataTransfer.perSecond'],
         factor: 125000,
         symbol: 'Tbit/s'
     },
     {
-        name: i18n.t('terabyte') + ' ' + i18n.t('perSecond'),
+        name: ['dataTransfer.terabyte', 'dataTransfer.perSecond'],
         factor: 1000000,
         symbol: 'TB/s'
     }
@@ -287,32 +285,32 @@ export const DATA_TRANSFER = [
 export const STORAGE = [
     // the reference for factor is megabyte
     {
-        name: i18n.t('bit'),
+        name: ['dataTransfer.bit'],
         factor: 0.000000125,
         symbol: 'bit'
     },
     {
-        name: i18n.t('kilobyte'),
+        name: ['dataTransfer.kilobyte'],
         factor: 0.001,
         symbol: 'kB'
     },
     {
-        name: i18n.t('megabyte'),
+        name: ['dataTransfer.megabyte'],
         factor: 1,
         symbol: 'MB'
     },
     {
-        name: i18n.t('gigabyte'),
+        name: ['dataTransfer.gigabyte'],
         factor: 1000,
         symbol: 'GB'
     },
     {
-        name: i18n.t('terabyte'),
+        name: ['dataTransfer.terabyte'],
         factor: 1000000,
         symbol: 'TB'
     },
     {
-        name: i18n.t('petabyte'),
+        name: ['dataTransfer.petabyte'],
         factor: 1000000000,
         symbol: 'PB'
     }
@@ -321,47 +319,47 @@ export const STORAGE = [
 export const ENERGY = [
     // the reference for factor is watt hour
     {
-        name: i18n.t('joule'),
+        name: ['energy.joule'],
         factor: 0.000277778,
         symbol: 'K'
     },
     {
-        name: i18n.t('kilojoule'),
+        name: ['energy.kilojoule'],
         factor: 0.277778,
         symbol: 'kJ'
     },
     {
-        name: i18n.t('calorie'),
+        name: ['energy.calorie'],
         factor: 0.00116222,
         symbol: ''
     },
     {
-        name: i18n.t('kilocalorie'),
+        name: ['energy.kilocalorie'],
         factor: 1.16222,
         symbol: 'cal'
     },
     {
-        name: i18n.t('watthour'),
+        name: ['energy.watthour'],
         factor: 1,
         symbol: 'Wh'
     },
     {
-        name: i18n.t('kilowatthour'),
+        name: ['energy.kilowatthour'],
         factor: 1000,
         symbol: 'kWh'
     },
     {
-        name: i18n.t('britishThermalUnit'),
+        name: ['energy.britishThermalUnit'],
         factor: 0.293071,
         symbol: 'Btu'
     },
     {
-        name: i18n.t('usTherm'),
+        name: ['energy.usTherm'],
         factor: 29300.1,
         symbol: 'thm'
     },
     {
-        name: i18n.t('footPound'),
+        name: ['energy.footPound'],
         factor: 0.000376616,
         symbol: 'ft⋅lbf'
     },
@@ -370,22 +368,22 @@ export const ENERGY = [
 export const FREQUENCY = [
     // the reference for factor is kilohertz
     {
-        name: i18n.t('hertz'),
+        name: ['frequency.hertz'],
         factor: 0.001,
         symbol: 'Hz'
     },
     {
-        name: i18n.t('kilohertz'),
+        name: ['frequency.kilohertz'],
         factor: 1,
         symbol: 'kHz'
     },
     {
-        name: i18n.t('megahertz'),
+        name: ['frequency.megahertz'],
         factor: 1000,
         symbol: 'mHz'
     },
     {
-        name: i18n.t('gigahertz'),
+        name: ['frequency.gigahertz'],
         factor: 1000000,
         symbol: 'gHz'
     },
@@ -394,22 +392,22 @@ export const FREQUENCY = [
 export const FUEL = [
     // the reference for factor is km/l
     {
-        name: i18n.t('kmlt'),
+        name: ['fuel.kmlt'],
         factor: 1,
         symbol: 'Km/L'
     },
     // {
-    //     name: i18n.t('lt100km'),
+    //     name: ['lt100km'],
     //     factor: 1,
     //     symbol: 'L/100Km'
     // },
     {
-        name: i18n.t('mlgallon'),
+        name: ['fuel.mlgallon'],
         factor: 0.425144,
         symbol: 'mpg'
     },
     {
-        name: i18n.t('mlgallonImp'),
+        name: ['fuel.mlgallonImp'],
         factor: 0.354006,
         symbol: 'mgp imp'
     },
@@ -418,32 +416,32 @@ export const FUEL = [
 export const ANGLE = [
     // the reference for factor is degree
     {
-        name: i18n.t('degree'),
+        name: ['angle.degree'],
         factor: 1,
         symbol: '°'
     },
     {
-        name: i18n.t('milliradian'),
+        name: ['angle.milliradian'],
         factor: 0.0572958,
         symbol: 'mrad'
     },
     {
-        name: i18n.t('minuteofarc'),
+        name: ['angle.minuteofarc'],
         factor: 0.0166667,
         symbol: '′'
     },
     {
-        name: i18n.t('radian'),
+        name: ['angle.radian'],
         factor: 57.2958,
         symbol: 'rad'
     },
     {
-        name: i18n.t('secondofarc'),
+        name: ['angle.secondofarc'],
         factor: 0.000277778,
         symbol: '″'
     },
     {
-        name: i18n.t('gradian'),
+        name: ['angle.gradian'],
         factor: .9,
         symbol: 'grad'
     },
@@ -452,27 +450,27 @@ export const ANGLE = [
 export const PRESSURE = [
     // the reference for factor is bar
     {
-        name: i18n.t('bar'),
+        name: ['pressure.bar'],
         factor: 1,
         symbol: 'bar'
     },
     {
-        name: i18n.t('poundPerSquareInch'),
+        name: ['pressure.poundPerSquareInch'],
         factor: 0.0689476,
         symbol: 'psi'
     },
     {
-        name: i18n.t('atmosphere'),
+        name: ['pressure.atmosphere'],
         factor: 1.01325,
         symbol: 'atm'
     },
     {
-        name: i18n.t('torr'),
+        name: ['pressure.torr'],
         factor: 0.00133322,
         symbol: 'Torr'
     },
     {
-        name: i18n.t('pascal'),
+        name: ['pressure.pascal'],
         factor: 0.00001,
         symbol: 'Pa'
     },
@@ -481,27 +479,27 @@ export const PRESSURE = [
 export const SPEED = [
     // the reference for factor is m/s
     {
-        name: i18n.t('milesperhour'),
+        name: ['speed.milesperhour'],
         factor: 0.44704,
         symbol: 'mph'
     },
     {
-        name: i18n.t('footpersecond'),
+        name: ['speed.footpersecond'],
         factor: 0.3048,
         symbol: 'ft/s'
     },
     {
-        name: i18n.t('meterpersecond'),
+        name: ['speed.meterpersecond'],
         factor: 1,
         symbol: 'm/s'
     },
     {
-        name: i18n.t('kmperhour'),
+        name: ['speed.kmperhour'],
         factor: 0.277778,
         symbol: 'km/h'
     },
     {
-        name: i18n.t('knot'),
+        name: ['speed.knot'],
         factor: 0.514444,
         symbol: 'kn'
     },
@@ -510,52 +508,52 @@ export const SPEED = [
 export const TIME = [
     // the reference for factor is hour
     {
-        name: i18n.t('millisecond'),
+        name: ['time.millisecond'],
         factor: 0.000000277777,
         symbol: 'ms'
     },
     {
-        name: i18n.t('second'),
+        name: ['time.second'],
         factor: 0.000277778,
         symbol: 's'
     },
     {
-        name: i18n.t('minute'),
+        name: ['time.minute'],
         factor: 0.0166667,
         symbol: 'min'
     },
     {
-        name: i18n.t('hour'),
+        name: ['time.hour'],
         factor: 1,
         symbol: 'h'
     },
     {
-        name: i18n.t('day'),
+        name: ['time.day'],
         factor: 24,
         symbol: 'd'
     },
     {
-        name: i18n.t('week'),
+        name: ['time.week'],
         factor: 168,
         symbol: 'w'
     },
     {
-        name: i18n.t('month'),
+        name: ['time.month'],
         factor: 730,
         symbol: 'M'
     },
     {
-        name: i18n.t('year'),
+        name: ['time.year'],
         factor: 8760,
         symbol: 'a'
     },
     {
-        name: i18n.t('decade'),
+        name: ['time.decade'],
         factor: 87600,
         symbol: 'dec'
     },
     {
-        name: i18n.t('century'),
+        name: ['time.century'],
         factor: 876000,
         symbol: 'C'
     },
@@ -570,21 +568,21 @@ const fromCToF = x => (x - 32) * 5 / 9
 export const TEMPERATURE = [
     // the reference for factor is celsius
     {
-        name: i18n.t('celsius'),
+        name: ['temperature.celsius'],
         factor: 1,
         symbol: '℃',
         formulaFrom: fromCToC.toString(),
         formulaTo: fromCToC.toString(),
     },
     {
-        name: i18n.t('kelvin'),
+        name: ['temperature.kelvin'],
         factor: 1,
         symbol: 'K',
         formulaFrom: fromKToC.toString(),
         formulaTo: fromCToK.toString(),
     },
     {
-        name: i18n.t('fahrenheit'),
+        name: ['temperature.fahrenheit'],
         factor: 1,
         symbol: '℉',
         formulaFrom: fromFToC.toString(),

@@ -1,4 +1,3 @@
-import i18n from "./textLanguages";
 import { 
     WEIGHT_MEASURES,
     DISTANCE_MEASURES,
@@ -23,7 +22,7 @@ import {
 export const menuOptionsPrices = [
     {
         icon: 'boxes',
-        title: i18n.t('quantity'),
+        title: 'label.quantity',
         screen: 'Quantity',
         background: BACKGROUND_COLOR_BUTTONS_PRICE_SCREEN,
         borderWidth: BORDER_COLOR_BUTTONS_PRICE_SCREEN,
@@ -31,7 +30,7 @@ export const menuOptionsPrices = [
     },
     {
         icon: 'balance-scale-right',
-        title: i18n.t('weight'),
+        title: 'label.weight',
         screen: 'Weight',
         background: BACKGROUND_COLOR_BUTTONS_PRICE_SCREEN,
         borderWidth: BORDER_COLOR_BUTTONS_PRICE_SCREEN,
@@ -39,7 +38,7 @@ export const menuOptionsPrices = [
     },
     {
         icon: 'arrows-alt-h',
-        title: i18n.t('distance'),
+        title: 'label.distance',
         screen: 'Distance',
         background: BACKGROUND_COLOR_BUTTONS_PRICE_SCREEN,
         borderWidth: BORDER_COLOR_BUTTONS_PRICE_SCREEN,
@@ -47,7 +46,7 @@ export const menuOptionsPrices = [
     },
     {
         icon: 'wine-bottle',
-        title: i18n.t('liquid'),
+        title: 'label.liquid',
         screen: 'Liquid',
         background: BACKGROUND_COLOR_BUTTONS_PRICE_SCREEN,
         borderWidth: BORDER_COLOR_BUTTONS_PRICE_SCREEN,
@@ -55,7 +54,7 @@ export const menuOptionsPrices = [
     },
     {
         icon: 'ruler-combined',
-        title: i18n.t('area'),
+        title: 'label.area',
         screen: 'Area',
         background: BACKGROUND_COLOR_BUTTONS_PRICE_SCREEN,
         borderWidth: BORDER_COLOR_BUTTONS_PRICE_SCREEN,
@@ -66,7 +65,7 @@ export const menuOptionsPrices = [
 export const menuOptionsMeasure = [
     {
         icon: 'balance-scale-right',
-        title: i18n.t('weight'),
+        title: 'label.weight',
         screen: 'Weight',
         background: BACKGROUND_COLOR_BUTTONS_CONVERT_SCREEN,
         borderWidth: BORDER_COLOR_BUTTONS_CONVERT_SCREEN,
@@ -74,7 +73,7 @@ export const menuOptionsMeasure = [
     },
     {
         icon: 'arrows-alt-h',
-        title: i18n.t('distance'),
+        title: 'label.distance',
         screen: 'Distance',
         background: BACKGROUND_COLOR_BUTTONS_CONVERT_SCREEN,
         borderWidth: BORDER_COLOR_BUTTONS_CONVERT_SCREEN,
@@ -82,7 +81,7 @@ export const menuOptionsMeasure = [
     },
     {
         icon: 'wine-bottle',
-        title: i18n.t('liquid'),
+        title: 'label.liquid',
         screen: 'Liquid',
         background: BACKGROUND_COLOR_BUTTONS_CONVERT_SCREEN,
         borderWidth: BORDER_COLOR_BUTTONS_CONVERT_SCREEN,
@@ -90,7 +89,7 @@ export const menuOptionsMeasure = [
     },
     {
         icon: 'ruler-combined',
-        title: i18n.t('area'),
+        title: 'label.area',
         screen: 'Area',
         background: BACKGROUND_COLOR_BUTTONS_CONVERT_SCREEN,
         borderWidth: BORDER_COLOR_BUTTONS_CONVERT_SCREEN,
@@ -98,7 +97,7 @@ export const menuOptionsMeasure = [
     },
     {
         icon: 'exchange-alt',
-        title: i18n.t('dataTransfer'),
+        title: 'label.dataTransfer',
         screen: 'DataTransfer',
         background: BACKGROUND_COLOR_BUTTONS_CONVERT_SCREEN,
         borderWidth: BORDER_COLOR_BUTTONS_CONVERT_SCREEN,
@@ -106,7 +105,7 @@ export const menuOptionsMeasure = [
     },
     {
         icon: 'database',
-        title: i18n.t('storage'),
+        title: 'label.storage',
         screen: 'Storage',
         background: BACKGROUND_COLOR_BUTTONS_CONVERT_SCREEN,
         borderWidth: BORDER_COLOR_BUTTONS_CONVERT_SCREEN,
@@ -114,7 +113,7 @@ export const menuOptionsMeasure = [
     },
     {
         icon: 'lightbulb',
-        title: i18n.t('energy'),
+        title: 'label.energy',
         screen: 'Energy',
         background: BACKGROUND_COLOR_BUTTONS_CONVERT_SCREEN,
         borderWidth: BORDER_COLOR_BUTTONS_CONVERT_SCREEN,
@@ -122,7 +121,7 @@ export const menuOptionsMeasure = [
     },
     {
         icon: 'wave-square',
-        title: i18n.t('frequency'),
+        title: 'label.frequency',
         screen: 'Frequency',
         background: BACKGROUND_COLOR_BUTTONS_CONVERT_SCREEN,
         borderWidth: BORDER_COLOR_BUTTONS_CONVERT_SCREEN,
@@ -130,7 +129,7 @@ export const menuOptionsMeasure = [
     },
     {
         icon: 'gas-pump',
-        title: i18n.t('fuel'),
+        title: 'label.fuel',
         screen: 'Fuel',
         background: BACKGROUND_COLOR_BUTTONS_CONVERT_SCREEN,
         borderWidth: BORDER_COLOR_BUTTONS_CONVERT_SCREEN,
@@ -138,7 +137,7 @@ export const menuOptionsMeasure = [
     },
     {
         icon: 'draw-polygon',
-        title: i18n.t('angle'),
+        title: 'label.angle',
         screen: 'Angle',
         background: BACKGROUND_COLOR_BUTTONS_CONVERT_SCREEN,
         borderWidth: BORDER_COLOR_BUTTONS_CONVERT_SCREEN,
@@ -146,7 +145,7 @@ export const menuOptionsMeasure = [
     },
     {
         icon: 'gem',
-        title: i18n.t('pressure'),
+        title: 'label.pressure',
         screen: 'Pressure',
         background: BACKGROUND_COLOR_BUTTONS_CONVERT_SCREEN,
         borderWidth: BORDER_COLOR_BUTTONS_CONVERT_SCREEN,
@@ -154,7 +153,7 @@ export const menuOptionsMeasure = [
     },
     {
         icon: 'tachometer-alt',
-        title: i18n.t('speed'),
+        title: 'label.speed',
         screen: 'Speed',
         background: BACKGROUND_COLOR_BUTTONS_CONVERT_SCREEN,
         borderWidth: BORDER_COLOR_BUTTONS_CONVERT_SCREEN,
@@ -162,7 +161,7 @@ export const menuOptionsMeasure = [
     },
     {
         icon: 'clock',
-        title: i18n.t('time'),
+        title: 'label.time',
         screen: 'Time',
         background: BACKGROUND_COLOR_BUTTONS_CONVERT_SCREEN,
         borderWidth: BORDER_COLOR_BUTTONS_CONVERT_SCREEN,
@@ -170,7 +169,7 @@ export const menuOptionsMeasure = [
     },
     {
         icon: 'thermometer-three-quarters',
-        title: i18n.t('temperature'),
+        title: 'label.temperature',
         screen: 'Temperature',
         background: BACKGROUND_COLOR_BUTTONS_CONVERT_SCREEN,
         borderWidth: BORDER_COLOR_BUTTONS_CONVERT_SCREEN,
