@@ -16,6 +16,7 @@ import {
     faTachometerAlt, //tachometer-alt
     faClock, //clock
     faThermometerThreeQuarters, //thermometer-three-quarters
+    faSortDown, //sort-down
 } from '@fortawesome/free-solid-svg-icons';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 
@@ -35,6 +36,7 @@ library.add(
     faTachometerAlt, //tachometer-alt
     faClock, //clock
     faThermometerThreeQuarters, //thermometer-three-quarters
+    faSortDown, //sort-down
 );
 
 const Icon = (props) => {

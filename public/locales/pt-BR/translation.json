@@ -1,9 +1,4 @@
 {
-    "description": {
-        "part1": "Edite <1>src/App.js</1> e salve para reloadar.",
-        "part2": "Aprenda React"
-    },
-    "test": "testar",
     "label": {
         "quantity": "Quantidade", 
         "weight": "Peso", 
@@ -22,7 +17,7 @@
         "remove": "Remover",
         "measure": "Medida",
         "comparePrice": "Comparar preços",
-        "convert": "Converter",
+        "convert": "Conversor",
         "value": "Valor",
         "from": "De",
         "to": "Para",

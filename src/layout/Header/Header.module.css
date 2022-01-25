@@ -3,5 +3,26 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 20px 40px;
+    align-items: center;
+    padding: 10px 40px;
+}
+
+.DivLogo{
+    margin-left: 80px;
+}
+
+@media only screen and (max-width: 992px) {
+    .DivInv{
+        display: none;
+    }
+
+    .DivLogo{
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .Header{
+        padding: 10px 20px;
+    }
 }

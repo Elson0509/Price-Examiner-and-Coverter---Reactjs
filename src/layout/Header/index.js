@@ -5,11 +5,12 @@ import MenuLanguage from '../../components/MenuLanguage';
 const Header = (props) => {
     return (
         <header className={classes.Header}>
-            <div>
-                <img src='/img/logo.png' alt='logo peuc' height={80}/>
+            <div className={classes.DivInv}></div>
+            <div className={classes.DivLogo}>
+                <img src='/img/logo.png' alt='logo peuc' height={80} />
             </div>
             <div>
-                <MenuLanguage/>
+                <MenuLanguage />
             </div>
         </header>
     );

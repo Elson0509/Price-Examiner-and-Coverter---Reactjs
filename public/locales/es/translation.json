@@ -1,9 +1,4 @@
 {
-    "description": {
-        "part1": "Spanish <1>src/App.js</1> und speichere um neu zu laden.",
-        "part2": "Lerne React"
-    },
-    "test": "testspanish",
     "label": {
         "quantity": "Cantidade", 
         "weight": "Peso", 

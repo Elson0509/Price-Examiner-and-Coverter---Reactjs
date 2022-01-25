@@ -1,0 +1,60 @@
+.ButtonDiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.Button {
+    padding: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    min-width: 200px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .Button {
+        min-width: 100px;
+    }
+}
+
+.ButtonActive {
+    background: rgba(0, 0, 0, 1);
+    background: -moz-linear-gradient(left, rgba(0, 0, 0, 1) 0%, rgba(79, 79, 79, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0, 0, 0, 1)), color-stop(100%, rgba(79, 79, 79, 1)));
+    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 1) 0%, rgba(79, 79, 79, 1) 100%);
+    background: -o-linear-gradient(left, rgba(0, 0, 0, 1) 0%, rgba(79, 79, 79, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(0, 0, 0, 1) 0%, rgba(79, 79, 79, 1) 100%);
+    background: linear-gradient(to right, rgba(0, 0, 0, 1) 0%, rgba(79, 79, 79, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#4f4f4f', GradientType=1);
+    color: white;
+}
+
+.ButtonActive:hover {
+    background: #555;
+}
+
+.ButtonInactive {
+    background: rgba(231, 231, 231, 1);
+    background: -moz-linear-gradient(left, rgba(231, 231, 231, 1) 0%, rgba(176, 176, 176, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(231, 231, 231, 1)), color-stop(100%, rgba(176, 176, 176, 1)));
+    background: -webkit-linear-gradient(left, rgba(231, 231, 231, 1) 0%, rgba(176, 176, 176, 1) 100%);
+    background: -o-linear-gradient(left, rgba(231, 231, 231, 1) 0%, rgba(176, 176, 176, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(231, 231, 231, 1) 0%, rgba(176, 176, 176, 1) 100%);
+    background: linear-gradient(to right, rgba(231, 231, 231, 1) 0%, rgba(176, 176, 176, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e7e7e7', endColorstr='#b0b0b0', GradientType=1);
+    color: black;
+}
+
+.ButtonInactive:hover {
+    background: #e7e7e7;
+}
+
+.ButtonLeft {
+    border-radius: 20px 0 0 20px;
+}
+
+.ButtonRight {
+    border-radius: 0 20px 20px 0;
+}
