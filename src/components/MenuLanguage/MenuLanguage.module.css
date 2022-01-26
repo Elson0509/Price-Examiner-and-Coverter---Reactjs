@@ -63,3 +63,7 @@
     background-color: #dddddd;
     transition: all .3s;
 }
+
+.ArrowDown{
+    margin-bottom: 10px;
+}

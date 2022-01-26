@@ -9,6 +9,7 @@ const Prices = (props) => {
             <div>
                 <SelectorButtonPriceOrConvert active='price'/>
                 <ListButonPrices/>
+
             </div>
         </Page>
     );
