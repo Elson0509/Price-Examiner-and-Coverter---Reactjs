@@ -1,0 +1,45 @@
+.DivButtons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+}
+
+@media only screen and (max-width: 720px) {
+    .DivButtons{
+        flex-direction: column;
+    }
+}
+
+.Button{
+    border-radius: 5px;
+    min-width: 120px;
+    height: 40px;
+    color: white;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.Button1{
+    background: #1212FF;
+}
+.Button1:hover{
+    background: #3534FF;
+}
+
+.Button2{
+    background: #FFB006;
+}
+.Button2:hover{
+    background: #FFD228;
+}
+
+.Button3{
+    background: #DC3545;
+}
+.Button3:hover{
+    background: #ED5767;
+}
