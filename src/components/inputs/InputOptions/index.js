@@ -10,10 +10,15 @@ const InputOptions = (props) => {
                 <label className={classes.Label}>{props.label}</label>
             </div>
             <div>
-                <select className={classes.Input}>
+                <select 
+                    className={classes.Input} 
+                    value={props.value} 
+                    onChange={props.setValue}
+                    style={{borderColor: props.borderColor || 'black', borderWidth: props.borderColor ? 2 : 1}}    
+                >
                     {
-                        props.options.map(el => (
-                            <option value={el} key={el.symbol}>{el.name.map(el=>t(el)).join(' ')} ({el.symbol})</option>
+                        props.options.map((el, ind) => (
+                            <option value={ind} key={el.symbol}>{el.name.map(el=>t(el)).join(' ')} ({el.symbol})</option>
                         ))
                     }
                 </select>

@@ -8,7 +8,13 @@ const InputValue = (props) => {
                 <label className={classes.Label}>{props.label}</label>
             </div>
             <div>
-                <input className={classes.Input} type={props.type || 'number'} value={props.value} onChange={props.changeValue}/>
+                <input 
+                    className={classes.Input} 
+                    type={props.type || 'number'} 
+                    value={props.value} 
+                    onChange={props.changeValue}
+                    style={{borderColor: props.borderColor || 'black', borderWidth: props.borderColor ? 2 : 1}}
+                />
             </div>
         </div>
     );

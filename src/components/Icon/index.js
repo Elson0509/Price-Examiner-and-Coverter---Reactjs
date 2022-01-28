@@ -17,6 +17,9 @@ import {
     faClock, //clock
     faThermometerThreeQuarters, //thermometer-three-quarters
     faSortDown, //sort-down
+    faPlusSquare, //plus-square
+    faThumbsUp, //thumbs-up
+    faLongArrowAltUp, //long-arrow-alt-up
 } from '@fortawesome/free-solid-svg-icons';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 
@@ -37,6 +40,9 @@ library.add(
     faClock, //clock
     faThermometerThreeQuarters, //thermometer-three-quarters
     faSortDown, //sort-down
+    faPlusSquare, //plus-square
+    faThumbsUp, //thumbs-up
+    faLongArrowAltUp, //long-arrow-alt-up
 );
 
 const Icon = (props) => {
