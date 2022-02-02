@@ -2,27 +2,24 @@ import React, { useState } from 'react';
 import Page from '../../layout/Page';
 import SelectorButtonPriceOrConvert from '../../components/buttons/SelectorButtonPriceOrConvert'
 import Modal from '../../components/Modal';
-import classes from './PricesCompare.module.css'
+import classes from './Quantity.module.css'
 import InputValue from '../../components/inputs/InputValue';
-import InputOptions from '../../components/inputs/InputOptions';
 import ButtonActions from '../../components/buttons/ButtonActions';
 import { useTranslation } from 'react-i18next'
 import ProductItem from '../../components/ProductItem';
 import { validateNumberStringWithDecimals } from '../../services/serviceFunctions'
 
-const PricesCompare = (props) => {
+const Quantity = (props) => {
     const { t } = useTranslation()
     const [products, setProducts] = useState([])
     const [modal, setModal] = useState(false)
     const [price, setPrice] = useState('')
     const [qtt, setQtt] = useState('')
     const [order, setOrder] = useState(null)
-    const [type, setType] = useState(0)
     const [btn1Text, setBtn1Text] = useState('')
     const [btn3Text, setBtn3Text] = useState('')
     const [dangerColorPrice, setDangerColorPrice] = useState('')
     const [dangerColorQtt, setDangerColorQtt] = useState('')
-    const [dangerColorMeasure, setDangerColorMeasure] = useState('')
 
     const confirmClickHandler = _ => {
         // Validating form
@@ -38,21 +35,15 @@ const PricesCompare = (props) => {
         else {
             setDangerColorQtt('')
         }
-        if (type === undefined) {
-            return setDangerColorMeasure('red')
-        }
-        else {
-            setDangerColorMeasure('')
-        }
         //adding item...
         if (!order) {
-            const newItem = { id: Date.now() + price, price, qtt, type }
+            const newItem = { id: Date.now() + price + qtt, price, qtt }
             setProducts(prev => [...prev, newItem])
         }
         //or updating it in the list
         else {
             const newProducts = [...products]
-            newProducts[order - 1] = { id: Date.now() + price, price, qtt, type }
+            newProducts[order - 1] = { id: Date.now() + price + qtt, price, qtt }
             setProducts(newProducts)
         }
         setModal(false)
@@ -72,7 +63,6 @@ const PricesCompare = (props) => {
     const addHandler = _ => {
         setDangerColorPrice('')
         setDangerColorQtt('')
-        setDangerColorMeasure('')
         setBtn1Text('')
         setPrice('')
         setQtt('')
@@ -84,7 +74,7 @@ const PricesCompare = (props) => {
     const productsList = _ => {
         let cheapper = 0
         let productList = products.map((el, ind) => { 
-            const relativePrice = el.price / (el.qtt * props.measures[el.type].factor)
+            const relativePrice = el.price / el.qtt
             if (cheapper === 0 || relativePrice < cheapper){
                 cheapper = relativePrice
             }
@@ -115,7 +105,7 @@ const PricesCompare = (props) => {
     return (
         <Page>
             <div>
-                <SelectorButtonPriceOrConvert active='price' />
+                <SelectorButtonPriceOrConvert active='price'/>
                 <h1 className={classes.Title}>{t(props.title)}</h1>
             </div>
             <div className={classes.ListProducts}>
@@ -144,13 +134,6 @@ const PricesCompare = (props) => {
                     changeValue={ev => setQtt(ev.target.value)} 
                     borderColor={dangerColorQtt}
                 />
-                <InputOptions 
-                    label={t('label.typeOfMeasure')} 
-                    options={props.measures} 
-                    value={type} 
-                    setValue={ev => setType(ev.target.value)}
-                    borderColor={dangerColorMeasure}
-                />
                 <ButtonActions
                     text1={btn1Text || t('label.confirm')}
                     text2={t('label.cancel')}
@@ -164,4 +147,4 @@ const PricesCompare = (props) => {
     );
 };
 
-export default PricesCompare;
+export default Quantity;

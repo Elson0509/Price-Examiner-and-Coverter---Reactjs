@@ -1,0 +1,21 @@
+.TitleHeaderDiv {
+    background: rgba(61, 74, 50, 1);
+    background: -moz-linear-gradient(left, rgba(61, 74, 50, 1) 0%, rgba(31, 59, 8, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(61, 74, 50, 1)), color-stop(100%, rgba(31, 59, 8, 1)));
+    background: -webkit-linear-gradient(left, rgba(61, 74, 50, 1) 0%, rgba(31, 59, 8, 1) 100%);
+    background: -o-linear-gradient(left, rgba(61, 74, 50, 1) 0%, rgba(31, 59, 8, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(61, 74, 50, 1) 0%, rgba(31, 59, 8, 1) 100%);
+    background: linear-gradient(to right, rgba(61, 74, 50, 1) 0%, rgba(31, 59, 8, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3d4a32', endColorstr='#1f3b08', GradientType=1);
+}
+
+
+.TitleHeader {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.8rem;
+    width: 70%;
+    margin: 0 auto;
+    padding: 40px;
+    color: white;
+}

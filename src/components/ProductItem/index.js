@@ -23,14 +23,12 @@ const ProductItem = (props) => {
         backgroundColor = props.product.isCheaper ? BACKGROUND_COLOR_ITEM_LIST_CHEAP : BACKGROUND_COLOR_ITEM_LIST_EXPENSIVE
     }
 
-    console.log(props.product)
-
     return (
         props.product?.price ?
         <button className={[classes.Box].join(' ')} style={{borderColor, backgroundColor}} onClick={()=>props.productClickHandler(props.product)}>
             <div className={classes.Title}>{t('label.item')} {props.product.order}</div>
             <div className={classes.Description}>{t('label.price')}: $ {Number(props.product.price).toFixed(2)}</div>
-            <div className={classes.Description}>{t('label.quantity')}: {Number(props.product.qtt).toFixed(2)} {props.type.symbol}</div>
+            <div className={classes.Description}>{t('label.quantity')}: {Number(props.product.qtt).toFixed(2)} {props.type?.symbol ?? ''}</div>
             {
                 props.product.isCheaper !== undefined && props.product.isCheaper &&
                 <div>

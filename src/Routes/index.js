@@ -6,7 +6,7 @@ import { menuOptionsPrices } from '../services/menuOptions'
 const MainLazy = lazy(() => import('../pages/Main'))
 const ConvertLazy = lazy(() => import('../pages/Convert'))
 const PricesLazy = lazy(() => import('../pages/Prices'))
-const UnitsLazy = lazy(() => import('../pages/Units'))
+const QuantityLazy = lazy(() => import('../pages/Quantity'))
 const PricesCompareLazy = lazy(() => import('../pages/PricesCompare'))
 
 const MyRoutes = props => {
@@ -15,9 +15,15 @@ const MyRoutes = props => {
             <Route exact path='/' element={<MainLazy />} />
             <Route exact path='/convert' element={<ConvertLazy />} />
             <Route exact path='/price' element={<PricesLazy />} />
-            <Route exact path='/unit' element={<UnitsLazy />} />
             {
                 menuOptionsPrices.map(el=>(
+                    el.screen === 'Quantity' ?
+                    <Route exact 
+                        key={el.screen} 
+                        path={`/price/${el.screen.toLowerCase()}`} 
+                        element={<QuantityLazy measures={el.measures} title={el.title}/>} 
+                    />
+                    :
                     <Route exact 
                         key={el.screen} 
                         path={`/price/${el.screen.toLowerCase()}`} 
