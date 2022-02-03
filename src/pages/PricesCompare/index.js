@@ -8,7 +8,6 @@ import InputOptions from '../../components/inputs/InputOptions';
 import ButtonActions from '../../components/buttons/ButtonActions';
 import { useTranslation } from 'react-i18next'
 import ProductItem from '../../components/ProductItem';
-import { validateNumberStringWithDecimals } from '../../services/serviceFunctions'
 
 const PricesCompare = (props) => {
     const { t } = useTranslation()

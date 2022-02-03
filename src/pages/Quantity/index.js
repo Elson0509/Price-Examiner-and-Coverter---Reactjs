@@ -7,7 +7,6 @@ import InputValue from '../../components/inputs/InputValue';
 import ButtonActions from '../../components/buttons/ButtonActions';
 import { useTranslation } from 'react-i18next'
 import ProductItem from '../../components/ProductItem';
-import { validateNumberStringWithDecimals } from '../../services/serviceFunctions'
 
 const Quantity = (props) => {
     const { t } = useTranslation()

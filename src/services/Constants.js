@@ -331,12 +331,12 @@ export const ENERGY = [
     {
         name: ['energy.calorie'],
         factor: 0.00116222,
-        symbol: ''
+        symbol: 'cal'
     },
     {
         name: ['energy.kilocalorie'],
         factor: 1.16222,
-        symbol: 'cal'
+        symbol: 'Kcal'
     },
     {
         name: ['energy.watthour'],
