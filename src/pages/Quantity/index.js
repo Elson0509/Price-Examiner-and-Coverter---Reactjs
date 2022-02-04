@@ -1,12 +1,12 @@
-import React, { useState } from 'react';
-import Page from '../../layout/Page';
+import React, { useState } from 'react'
+import Page from '../../layout/Page'
 import SelectorButtonPriceOrConvert from '../../components/buttons/SelectorButtonPriceOrConvert'
-import Modal from '../../components/Modal';
-import classes from './Quantity.module.css'
-import InputValue from '../../components/inputs/InputValue';
-import ButtonActions from '../../components/buttons/ButtonActions';
+import Modal from '../../components/Modal'
+import InputValue from '../../components/inputs/InputValue'
+import ButtonActions from '../../components/buttons/ButtonActions'
 import { useTranslation } from 'react-i18next'
-import ProductItem from '../../components/ProductItem';
+import ProductItem from '../../components/ProductItem'
+import './Quantity.scss'
 
 const Quantity = (props) => {
     const { t } = useTranslation()
@@ -105,9 +105,9 @@ const Quantity = (props) => {
         <Page>
             <div>
                 <SelectorButtonPriceOrConvert active='price'/>
-                <h1 className={classes.Title}>{t(props.title)}</h1>
+                <h1 className='Title'>{t(props.title)}</h1>
             </div>
-            <div className={classes.ListProducts}>
+            <div className='ListProducts'>
             {
                 productsList().map(el=>(
                     <ProductItem 

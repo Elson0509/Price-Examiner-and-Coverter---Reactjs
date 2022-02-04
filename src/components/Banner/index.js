@@ -1,10 +1,10 @@
-import React from 'react';
-import classes from './Banner.module.css'
+import React from 'react'
+import './Banner.scss'
 
 const Banner = (props) => {
     return (
-        <div className={classes.TitleHeaderDiv}>
-            <h1 className={classes.TitleHeader}>{props.text}</h1>
+        <div className='TitleHeaderDiv'>
+            <h1 className='TitleHeader'>{props.text}</h1>
         </div>
     );
 };

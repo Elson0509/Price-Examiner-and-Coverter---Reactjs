@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
-import classes from './MenuLanguage.module.css'
 import { useTranslation } from 'react-i18next'
 import Icon from '../Icon'
+import './MenuLanguage.scss'
 
 const MenuLanguage = (props) => {
     const [showMenu, setShowMenu] = useState(false)
@@ -53,21 +53,21 @@ const MenuLanguage = (props) => {
     }, [i18n.language])
 
     return (
-        <div className={classes.MenuContainer}>
-            <button onClick={() => setShowMenu(prev => !prev)} className={classes.ButtonLanguage}>
+        <div className='MenuContainer'>
+            <button onClick={() => setShowMenu(prev => !prev)} className='ButtonLanguage'>
                 <img src={currentLanguage?.icon} height={30} alt='current language' />
-                <div className={classes.ArrowDown}>
+                <div className='ArrowDown'>
                     <Icon icon='sort-down' size={'lg'} />
                 </div>
             </button>
             {
                 showMenu &&
-                <nav className={[classes.Menu, showMenu ? classes.Active : ''].join(' ')} ref={dropdownRef}>
+                <nav className={`Menu ${showMenu ? 'Active' : ''}`} ref={dropdownRef}>
                     <ul>
                         {
                             languages.map(el => (
                                 <li key={el.language}>
-                                    <button className={classes.LanguageOption} onClick={() => clickLanguageHandler(el.language)}>
+                                    <button className='LanguageOption' onClick={() => clickLanguageHandler(el.language)}>
                                         <span>
                                             <img src={el.icon} height={40} alt="language icon" />
                                         </span>

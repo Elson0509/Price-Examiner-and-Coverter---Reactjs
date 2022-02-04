@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import Page from '../../layout/Page';
 import SelectorButtonPriceOrConvert from '../../components/buttons/SelectorButtonPriceOrConvert'
-import classes from './Conversor.module.css'
-import InputValue from '../../components/inputs/InputValue';
-import InputOptions from '../../components/inputs/InputOptions';
+import InputValue from '../../components/inputs/InputValue'
+import InputOptions from '../../components/inputs/InputOptions'
 import { useTranslation } from 'react-i18next'
-import ConvertTable from '../../components/Tables/ConvertTable';
+import ConvertTable from '../../components/Tables/ConvertTable'
+import './Conversor.scss'
 
 const Conversor = (props) => {
     const { t } = useTranslation()
@@ -17,9 +17,9 @@ const Conversor = (props) => {
         <Page>
             <div>
                 <SelectorButtonPriceOrConvert active='convert'/>
-                <h1 className={classes.Title}>{t(props.title)}</h1>
+                <h1 className='Title'>{t(props.title)}</h1>
             </div>
-            <div className={classes.Container}>
+            <div className='Container'>
                 <InputOptions 
                     label={t('label.from')}
                     value={from}

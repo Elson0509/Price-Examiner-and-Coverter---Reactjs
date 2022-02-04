@@ -115,7 +115,7 @@ export const LIQUID_MEASURES = [
     {
         name: ['liquid.ml'],
         factor: 0.001,
-        symbol: 'mL'
+        symbol: 'ml'
     },
     {
         name: ['liquid.liter'],
@@ -263,7 +263,7 @@ export const DATA_TRANSFER = [
     {
         name: ['dataTransfer.gigabit', 'dataTransfer.perSecond'],
         factor: 125,
-        symbol: 'Bgit/s'
+        symbol: 'Gbit/s'
     },
     {
         name: ['dataTransfer.gigabyte', 'dataTransfer.perSecond'],

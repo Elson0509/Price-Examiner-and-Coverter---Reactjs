@@ -1,17 +1,17 @@
 import React from 'react';
-import classes from './InputOptions.module.css'
 import { useTranslation } from 'react-i18next'
+import './InputOptions.scss'
 
 const InputOptions = (props) => {
     const { t } = useTranslation()
     return (
-        <div className={classes.InputDiv}>
+        <div className='InputDiv'>
             <div>
-                <label className={classes.Label}>{props.label}</label>
+                <label className='Label'>{props.label}</label>
             </div>
             <div>
                 <select 
-                    className={classes.Input} 
+                    className='Input'
                     value={props.value} 
                     onChange={props.setValue}
                     style={{borderColor: props.borderColor || 'black', borderWidth: props.borderColor ? 2 : 1}}    

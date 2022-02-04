@@ -1,15 +1,15 @@
 import React from 'react';
-import classes from './InputValue.module.css'
+import './InputValue.scss'
 
 const InputValue = (props) => {
     return (
-        <div className={classes.InputDiv}>
+        <div className='InputDiv'>
             <div>
-                <label className={classes.Label}>{props.label}</label>
+                <label className='Label'>{props.label}</label>
             </div>
             <div>
                 <input 
-                    className={classes.Input} 
+                    className='Input'
                     type={props.type || 'number'} 
                     value={props.value} 
                     onChange={props.changeValue}

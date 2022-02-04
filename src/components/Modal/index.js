@@ -1,20 +1,19 @@
 import React from 'react';
-import classes from './Modal.module.css'
+import './Modal.scss'
 
 const Modal = (props) => {
     return (
         props.modal &&
-            <div className={classes.Modal}>
-                <div className={classes.ModalContent}>
+            <div className='Modal'>
+                <div className='ModalContent'>
                     <div>
-                    <span className={classes.Close} onClick={()=>props.setModal(false)}>&times;</span>
+                    <span className='Close' onClick={()=>props.setModal(false)}>&times;</span>
                     </div>
-                    <div className={classes.Content}>
+                    <div className='Content'>
                         {
                             props.children
                         }
                     </div>
-                    
                 </div>
             </div>
     );

@@ -1,13 +1,13 @@
-import React, { useState } from 'react';
-import Page from '../../layout/Page';
+import React, { useState } from 'react'
+import Page from '../../layout/Page'
 import SelectorButtonPriceOrConvert from '../../components/buttons/SelectorButtonPriceOrConvert'
-import Modal from '../../components/Modal';
-import classes from './PricesCompare.module.css'
-import InputValue from '../../components/inputs/InputValue';
-import InputOptions from '../../components/inputs/InputOptions';
-import ButtonActions from '../../components/buttons/ButtonActions';
+import Modal from '../../components/Modal'
+import InputValue from '../../components/inputs/InputValue'
+import InputOptions from '../../components/inputs/InputOptions'
+import ButtonActions from '../../components/buttons/ButtonActions'
 import { useTranslation } from 'react-i18next'
-import ProductItem from '../../components/ProductItem';
+import ProductItem from '../../components/ProductItem'
+import './PricesCompare.scss'
 
 const PricesCompare = (props) => {
     const { t } = useTranslation()
@@ -115,9 +115,9 @@ const PricesCompare = (props) => {
         <Page>
             <div>
                 <SelectorButtonPriceOrConvert active='price' />
-                <h1 className={classes.Title}>{t(props.title)}</h1>
+                <h1 className='Title'>{t(props.title)}</h1>
             </div>
-            <div className={classes.ListProducts}>
+            <div className='ListProducts'>
             {
                 productsList().map(el=>(
                     <ProductItem 
