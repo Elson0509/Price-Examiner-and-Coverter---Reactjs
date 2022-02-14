@@ -321,7 +321,7 @@ export const ENERGY = [
     {
         name: ['energy.joule'],
         factor: 0.000277778,
-        symbol: 'K'
+        symbol: 'J'
     },
     {
         name: ['energy.kilojoule'],

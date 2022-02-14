@@ -33,7 +33,9 @@
         "pressure": "Pressão",
         "speed": "Velocidade",
         "time": "Tempo",
-        "temperature": "Temperatura"
+        "temperature": "Temperatura",
+        "sourceCode":"Código fonte",
+        "profile": "Perfil do programador"
     },
     "wheight": {
         "pound": "Libras",

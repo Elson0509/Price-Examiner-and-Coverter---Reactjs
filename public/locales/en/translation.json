@@ -33,7 +33,9 @@
         "pressure": "Pressure",
         "speed": "Speed",
         "time": "Time",
-        "temperature": "Temperature"
+        "temperature": "Temperature",
+        "sourceCode":"Source Code",
+        "profile": "Programmer Profile"
     },
     "wheight": {
         "pound": "Pounds",
@@ -100,7 +102,7 @@
     },        
     "energy": {
         "joule": "Joules",
-        "kilojoule": "kilojoules",
+        "kilojoule": "Kilojoules",
         "calorie": "Calories",
         "kilocalorie": "Kilocalories",
         "watthour": "Watt/h",

@@ -1,13 +1,15 @@
 import React, { Fragment } from 'react';
 import Header from '../Header';
+import Footer from '../Footer';
 
 const Page = (props) => {
     return (
         <Fragment>
-            <Header/>
+            <Header />
             <main>
                 {props.children}
             </main>
+            <Footer />
         </Fragment>
     );
 };
