@@ -7,22 +7,22 @@ const Footer = () => {
 
   return (
     <footer>
-      <div>
+      <div className='div-footer'>
         <a
           target='_blank'
           rel="noopener noreferrer"
           href='https://play.google.com/store/apps/details?id=com.elsonramos.peuc'>
-          <img src='/img/android.png' alt='android' width='350' />
+          <img src='/img/android.png' alt='android'/>
         </a>
       </div>
-      <div>
+      <div className='div-footer'>
         <h4 className='title-footer'>Links</h4>
         <ul>
           <li>
             <a
               target='_blank'
               rel="noopener noreferrer"
-              href='#'>
+              href='https://github.com/Elson0509/Price-Examiner-and-Coverter---Reactjs'>
                 {t('label.sourceCode')}
             </a>
           </li>
