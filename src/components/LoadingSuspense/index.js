@@ -11,7 +11,7 @@ const LoadingSuspense = () => {
                     <span className='leaf3'></span>
                     <span className='leaf4'></span>
                 </div>
-                <span className='loading' data-name="Loading">Carregando...</span>
+                <span className='loading' data-name="Loading">Loading...</span>
             </div>
         </div>
     );
